@@ -2,7 +2,7 @@
 import boto3
 
 REGION = "us-east-1"
-TABLE_NAME = "YourTableNameHere"  # replace with your table name
+TABLE_NAME = "Book"  # replace with your table name
 
 def get_table():
     dynamodb = boto3.resource("dynamodb", region_name=REGION)
